@@ -1,0 +1,7 @@
+CREATE TABLE payment (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    residentname VARCHAR(100) NOT NULL,
+    address TEXT,
+    paymentdate DATE NOT NULL,
+    paymentmonth VARCHAR(20) NOT NULL
+);

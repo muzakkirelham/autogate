@@ -1,0 +1,10 @@
+CREATE TABLE monitor (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    cardid VARCHAR(50) NOT NULL,
+    residentname VARCHAR(100) NOT NULL,
+    platenumber VARCHAR(20),
+    address TEXT,
+    scan_date DATE NOT NULL,
+    scan_time TIME NOT NULL,
+    status VARCHAR(50) NOT NULL
+);

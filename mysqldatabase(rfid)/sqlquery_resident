@@ -1,0 +1,14 @@
+CREATE TABLE resident (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    residentname VARCHAR(100) NOT NULL,
+    cardid VARCHAR(50) NOT NULL UNIQUE,
+    platenumber VARCHAR(20),
+    paymentdate DATE,
+    address TEXT,
+    email VARCHAR(100),
+    paymentmonth VARCHAR(20),
+    paymentstatus VARCHAR(50),
+    phone_no VARCHAR(15),
+    race VARCHAR(50),
+    gender VARCHAR(10)
+);
